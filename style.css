@@ -1,0 +1,68 @@
+* {
+    background-color: azure;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: cursive, sans-serif;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parent-element {
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+    text-align: center;
+    margin: 30px;
+    font-size: 15px;
+}
+
+a {    
+    display: inline-block;
+    height: 30px;
+    margin: 0 auto;
+}
+.home-link{
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.ingredients, .steps,
+.pic-and-description-block {
+    border: 1px solid red;
+    width: 1000px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pic-and-description-block{
+    background-color: blanchedalmond;
+}
+.pic-and-description-block h2,
+.pic-and-description-block p{
+    background-color: blanchedalmond;
+}
+
+.ingredients, .ingredients h2, .ingredients ul, .ingredients li, .ingredients ol {
+    background-color: rgb(250, 212, 250);
+}
+
+.steps, .steps h2, .steps ul, .steps li, .steps ol {
+    background-color: lemonchiffon;
+}
+
+
+.ingredients ul, .steps ul, .ingredients ol, .steps ol {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 50px;  
+}
